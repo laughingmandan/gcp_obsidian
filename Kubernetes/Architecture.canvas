@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"text","text":"# [[Control Plane]]\n## Manager of all Nodes within a cluster","id":"202c9e8417eea8a6","x":-520,"y":-560,"width":1328,"height":130},
+		{"type":"text","text":"# [[ETCD]]\n## The storage of current and desired state in a cluster","id":"2dcf21398cb29296","x":-270,"y":-380,"width":235,"height":220},
+		{"type":"text","text":"# [[API Server]]\n## The front end of a cluster\n","id":"80896fe45219c02c","x":-520,"y":-380,"width":250,"height":160},
+		{"type":"text","text":"# [[Cluster]] \n### An instance of kubernetes\n","id":"d3688e9c384cae6d","x":-520,"y":-720,"width":1893,"height":127},
+		{"type":"text","text":"# Node","id":"6c0d8c071e4e1399","x":808,"y":-560,"width":565,"height":130},
+		{"type":"text","text":"# [[Scheduler]]\n## Schedules pods to nodes based on a set criteria","id":"3211406e4b576241","x":465,"y":-380,"width":250,"height":190},
+		{"type":"text","text":"# [[Cloud Controller Manager]]\n## A subset of  control loops from the Controller Manager that a Cloud provider can replace. ","id":"25047c2515c4c4b4","x":215,"y":-380,"width":250,"height":380},
+		{"type":"text","text":"# [[Controller Manager]]\n## Modifies current state of cluster to get to desired state.","id":"f7d3a367ff8905d6","x":-35,"y":-380,"width":250,"height":300},
+		{"type":"text","text":"# Kubelet","id":"4fb9703132949dda","x":808,"y":-380,"width":250,"height":60},
+		{"type":"text","text":"# Kube Proxy","id":"cfbfb298179e0f4d","x":1058,"y":-380,"width":250,"height":60}
+	],
+	"edges":[]
+}

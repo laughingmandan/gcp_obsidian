@@ -1,0 +1,2 @@
+The Cloud Controller Manager is a collection of Kubernetes controllers which have cloud specific functionality tied to them. These controllers are called Node, Service, Route, and Node Lifecycle. At a high level it is just a detached portion of the [[Controller Manager]].   A cloud specific(AWS, GCS, Azure etc.) component that allows the respective cloud to link a [[Cluster]] to their API. This allows for you to overwrite the 
+#wip
