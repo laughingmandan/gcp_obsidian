@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Objects/Job.md",
+                "file": "Read Me.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5eba80fa97b4f80d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Objects/Object.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Objects/Job.md",
+                "file": "Google Compute Engine/Persistent Disks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Objects/Job.md",
+                "file": "Google Compute Engine/Persistent Disks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Objects/Job.md"
+                "file": "Google Compute Engine/Persistent Disks.md"
               }
             }
           }
@@ -157,19 +170,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad8fc63cf7cbc254",
+  "active": "fdb1dc1192779f96",
   "lastOpenFiles": [
-    "Kubernetes/Objects/Daemon Set.md",
+    "Kubernetes/Objects/Object.md",
+    "Read Me.md",
     "Kubernetes/Objects/Job.md",
+    "Kubernetes/Pod.md",
+    "Kubernetes/Scheduler.md",
+    "Kubernetes/Node.md",
+    "Kubernetes/ETCD.md",
+    "Kubernetes/Objects/Daemon Set.md",
     "Kubernetes/Objects/Stateful Set.md",
     "Kubernetes/Objects/Replica Set.md",
     "Kubernetes/Objects/Deployment.md",
     "Kubernetes/Objects/Namespace.md",
     "Kubernetes/Objects/Volume.md",
     "Kubernetes/Objects/Service.md",
-    "Kubernetes/Object.md",
     "Kubernetes/Architecture.canvas",
-    "Kubernetes/Scheduler.md",
     "Kubernetes/Controller Manager.md",
     "Kubernetes/Cloud Controller Manager.md",
     "Kubernetes/Control Loops/Service Account Controllers.md",
@@ -184,10 +201,6 @@
     "Kubernetes/Control Loops/Node Controller.md",
     "Kubernetes/Control Loops/Namespace Controller.md",
     "Kubernetes/Control Loops",
-    "Kubernetes/Control Plane.md",
-    "Kubernetes/ETCD.md",
-    "Google Compute Engine/Virtual Machines.md",
-    "Google Compute Engine/Boot Disk Image.md",
     "Kubernetes",
     "Google Kubernetes Engine/Untitled",
     "Google Kubernetes Engine",
