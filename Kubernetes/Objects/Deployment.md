@@ -1,0 +1,1 @@
+An object which declares the state

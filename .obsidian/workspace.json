@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Google Compute Engine/Persistent Disks.md",
+                "file": "Kubernetes/Objects/Deployment.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Google Compute Engine/Persistent Disks.md",
+                "file": "Kubernetes/Objects/Deployment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Google Compute Engine/Persistent Disks.md",
+                "file": "Kubernetes/Objects/Deployment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Google Compute Engine/Persistent Disks.md"
+                "file": "Kubernetes/Objects/Deployment.md"
               }
             }
           }
@@ -172,34 +172,36 @@
   },
   "active": "fdb1dc1192779f96",
   "lastOpenFiles": [
-    "Kubernetes/Objects/Object.md",
-    "Read Me.md",
-    "Kubernetes/Objects/Job.md",
-    "Kubernetes/Pod.md",
-    "Kubernetes/Scheduler.md",
-    "Kubernetes/Node.md",
-    "Kubernetes/ETCD.md",
-    "Kubernetes/Objects/Daemon Set.md",
-    "Kubernetes/Objects/Stateful Set.md",
     "Kubernetes/Objects/Replica Set.md",
+    "Kubernetes/Objects/Pod.md",
     "Kubernetes/Objects/Deployment.md",
     "Kubernetes/Objects/Namespace.md",
-    "Kubernetes/Objects/Volume.md",
-    "Kubernetes/Objects/Service.md",
     "Kubernetes/Architecture.canvas",
-    "Kubernetes/Controller Manager.md",
+    "Kubernetes/API Server.md",
     "Kubernetes/Cloud Controller Manager.md",
+    "Kubernetes/Objects/Object.md",
+    "Kubernetes/Objects/Volume.md",
+    "Services.md",
+    "Kubernetes/Scheduler.md",
+    "Kubernetes/Node.md",
+    "Kubernetes/Kube Proxy.md",
+    "Kubernetes/Kubelet.md",
+    "Kubernetes/ETCD.md",
+    "Kubernetes/Controller Manager.md",
+    "Kubernetes/Cluster.md",
+    "Kubernetes/Resources/Pasted image 20231101121421.png",
+    "Read Me.md",
+    "Kubernetes/Resources",
+    "Kubernetes/Resources/Pasted image 20231101115617.png",
+    "Kubernetes/Control Plane.md",
+    "Kubernetes/Untitled.md",
+    "Kubernetes/Objects/Stateful Set.md",
+    "Kubernetes/Objects/Daemon Set.md",
+    "Google Compute Engine/Persistent Disks.md",
+    "Kubernetes/Objects/Job.md",
+    "Kubernetes/Objects/Service.md",
     "Kubernetes/Control Loops/Service Account Controllers.md",
-    "Kubernetes/Control Loops/Endpoints Slice Controller.md",
     "Kubernetes/Objects",
-    "Kubernetes/Control Loops/Job Controller.md",
-    "Kubernetes/Control Loops/Untitled.md",
-    "Kubernetes/Control Loops/StatefulSet Controller.md",
-    "Kubernetes/Control Loops/DaemonSet Controller.md",
-    "Kubernetes/Control Loops/Deployment Controller.md",
-    "Kubernetes/Control Loops/Replication Controller.md",
-    "Kubernetes/Control Loops/Node Controller.md",
-    "Kubernetes/Control Loops/Namespace Controller.md",
     "Kubernetes/Control Loops",
     "Kubernetes",
     "Google Kubernetes Engine/Untitled",
@@ -209,7 +211,6 @@
     "Google Network Services/Resources/Pasted image 20231018130815.png",
     "Google Network Services",
     "Google Virtual Private Cloud",
-    "Google Compute Engine/Resources",
     "Google Compute Engine/Resources/Pasted image 20231016150121.png"
   ]
 }

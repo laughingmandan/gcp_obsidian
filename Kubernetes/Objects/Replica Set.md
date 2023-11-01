@@ -1,0 +1,1 @@
+A set of identical [[Pod]]s which allow for fault tolerance and high availability much like a [[Deployment]]. The difference between Replica Sets and a deployment is that a replica set does not support versioning. 
