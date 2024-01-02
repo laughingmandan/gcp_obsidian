@@ -1,0 +1,1 @@
+Defines rules for routing HTTPS traffic to applications running in a cluster. It is associates with one or more [[Service]] objects. 

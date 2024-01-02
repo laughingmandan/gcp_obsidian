@@ -19,3 +19,11 @@ Ping your machine from an external source to make sure that you can actually rea
 
 ### Step Six: External Dependencies
 Make sure that any external dependencies are working as expected. This includes enabling and allowing API access to you specific VM.
+
+
+## What to do if a VM is failing to boot or is inaccessible via SSH
+
+Connect to the Serial console. This is feature is disable by default and needs to be manually turned on for each instance or a per project basis. Since it is a security risk make sure to turn it off again.
+
+## Resources
+- https://cloud.google.com/compute/docs/troubleshooting/troubleshooting-using-serial-console

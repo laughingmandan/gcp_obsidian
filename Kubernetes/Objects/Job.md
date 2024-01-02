@@ -1,0 +1,1 @@
+A job is an [[Object]]. It provides a way to do specify the state of a non continuous amount of work distributed across any amount of [[Pod]]s. 

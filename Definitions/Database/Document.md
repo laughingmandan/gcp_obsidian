@@ -1,0 +1,1 @@
+Is a subtype of [[NoSQL]] database. Wherein all data is store in files.

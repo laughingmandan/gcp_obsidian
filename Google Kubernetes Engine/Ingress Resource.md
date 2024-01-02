@@ -1,0 +1,1 @@
+A GKE Ingress object is a google version of the [[Ingress]] object. Essentially all it does is create a [[Load Balancing]] instead of the usual.  

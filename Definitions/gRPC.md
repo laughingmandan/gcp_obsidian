@@ -1,0 +1,1 @@
+RPC stands for Remote Procedure Call. It allows for one piece of code to execute another piece of code on a different machine. It is incredibly performant out of the box and typically outperforms a regular REST api in the same context. It works by sending a encoded(zipped) data in a specioal way using googles protobuffer. 

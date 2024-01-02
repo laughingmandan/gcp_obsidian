@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"f10a2d23c3221880","type":"text","text":"Publisher","x":-360,"y":-160,"width":250,"height":60},
+		{"id":"e99bde0fc88f0eec","type":"text","text":"PubSub Control Plane","x":-360,"y":260,"width":250,"height":60},
+		{"id":"a165c14a1b695286","type":"text","text":"PubSub Data Plane","x":-360,"y":640,"width":250,"height":60},
+		{"id":"86f1879a0aa8b6f8","type":"text","text":"Subscription","x":-760,"y":840,"width":250,"height":60},
+		{"id":"4f67053b06f1ca01","type":"text","text":"Subscriber","x":0,"y":840,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"f3d900e602b28fd3","fromNode":"f10a2d23c3221880","fromSide":"bottom","toNode":"e99bde0fc88f0eec","toSide":"top","label":"1.) Sends Message"},
+		{"id":"64fe0aba346171af","fromNode":"e99bde0fc88f0eec","fromSide":"right","toNode":"f10a2d23c3221880","toSide":"right","label":"3.2) Acks after \nwriting message \nto storage"},
+		{"id":"62ad6c175436a43b","fromNode":"e99bde0fc88f0eec","fromSide":"left","toNode":"86f1879a0aa8b6f8","toSide":"left","label":"3.1) Delivers the message\n while writing the \nmessage to storage."},
+		{"id":"01d471b4b584b51b","fromNode":"86f1879a0aa8b6f8","fromSide":"right","toNode":"4f67053b06f1ca01","toSide":"left","label":"4.) Takes the message from the subscription"},
+		{"id":"4b0c16148420d9fd","fromNode":"e99bde0fc88f0eec","fromSide":"bottom","toNode":"a165c14a1b695286","toSide":"right","label":"6.) delete \nmessage from \nstorage"},
+		{"id":"30ef508d6320e92d","fromNode":"e99bde0fc88f0eec","fromSide":"bottom","toNode":"a165c14a1b695286","toSide":"left","label":"2.) Async Writes \nMessage to \nStorage"},
+		{"id":"772e8d50f4fbd281","fromNode":"4f67053b06f1ca01","fromSide":"right","toNode":"e99bde0fc88f0eec","toSide":"right","label":"5.) Acks that message"}
+	]
+}

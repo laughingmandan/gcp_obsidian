@@ -1,0 +1,1 @@
+CORS stands for cross origin request sharing

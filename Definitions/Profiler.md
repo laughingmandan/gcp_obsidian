@@ -1,0 +1,1 @@
+An tool that measures the two major components of a program. Time and space. Time can be anything from single instructions, methods, programs, api calls, network travel etc. Space can be anything from cpu cache, ram, ssd etc.

@@ -1,0 +1,1 @@
+Is a hybrid between [[NoSQL]] and [[Relational]] databases. The NoSQL portion allows for a petabyte scale of data to be processed. While the Relational portion allows for drawing conclusions between data. It stores data in partitions like a Cassandra and treats each row like its own mini NoSQL table. 

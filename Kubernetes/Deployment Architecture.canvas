@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"9930f2dde3eb0481","x":-580,"y":-320,"width":250,"height":60,"type":"text","text":"Service"},
+		{"id":"0dfefef23fd01df2","type":"text","text":"Pod","x":-640,"y":180,"width":250,"height":60}
+	],
+	"edges":[]
+}

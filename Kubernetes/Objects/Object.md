@@ -1,3 +1,10 @@
-An object is state of various parts of the cluster specified in code. This includes:
+An object is state of various parts of the cluster specified in code. This state is specified in YAML and is what the [[Control Plane]] uses as the target state of various [[Node]]s.  These includes:
 - [[Pod]]
-- [[Services]]
+- [[Service]]
+- [[Daemon Set]]
+- [[Job]]
+- [[Namespace]]
+- [[Replica Set]]
+- [[Stateful Set]]
+- [[Volume]]
+- [[Deployment]]

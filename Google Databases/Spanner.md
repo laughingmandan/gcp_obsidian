@@ -1,0 +1,4 @@
+A globally distributed [[Relational]] database. It supports ACID transactions and is does two interesting things.
+
+- Allows for non locking Reads of the database. Which means if an item is being updated or copied it does not block any Read from happening. It does this by the use of [True Timing](https://cloud.google.com/spanner/docs/true-time-external-consistency#:~:text=TrueTime%20enables%20applications%20to%20generate,all%20servers%20and%20all%20timestamps.) and keeping older copies of data that has been updated. 
+- Is sharded, replicated, and distributed globally. Tables are sharded based on the primary key. So a poor choice of the primary key will destroy performance as a whole.

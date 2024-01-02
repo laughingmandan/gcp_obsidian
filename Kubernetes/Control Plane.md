@@ -7,4 +7,3 @@ A control plane is the pilot of a cluster. It is a group of containers that make
 - [[Scheduler]]
 - [[Controller Manager]]
 - [[Cloud Controller Manager]]
--

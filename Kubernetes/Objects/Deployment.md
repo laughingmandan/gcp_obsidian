@@ -1,1 +1,1 @@
-An object which declares the state
+A deployment is an [[Object]]. It provides declarative updates to applications. It allows you to describe an application’s desired state, such as [[Pod]] state, and the number of instances. The [[Deployment Controller]] changes the actual state to the desired state at a controlled rate. This approach enables easy updates, scaling, and rollback for a set of Pods.

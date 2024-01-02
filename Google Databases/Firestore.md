@@ -1,0 +1,1 @@
+Firestore is a [[NoSQL]] [[Document]] Database. There are only two allowable types of information allowed on Firestore. Documents and Collection. Documents are a json like file in which you can store any information on. Collections are a grouping of Documents. You can nest documents by referencing Collections within the document itself.

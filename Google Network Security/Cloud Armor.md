@@ -1,0 +1,1 @@
+A layer between the internet and you application. It protects against various attack a webservice might have such as DDoS attacks. 
